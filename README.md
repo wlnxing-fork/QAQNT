@@ -10,7 +10,7 @@ Telegram闲聊群：https://t.me/LiteLoaderQQNT
 ## 注意事项
 
 > Windows QQNT 9.9.1-15293已适配并正常使用（需Clone仓库安装）（部分插件暂未适配）  
-> Windows QQNT 9.9.1-15489未适配并无法使用（需Clone仓库安装）（preload环境寄了）
+> Windows QQNT 9.9.1-15489未适配并无法使用（需Clone仓库安装）（在修插件preload）
 
 - 目前仍在开发当中，可能会存在一些问题和不足
 - 仅为个人兴趣而制作，开发目的在于学习和探索
@@ -20,8 +20,11 @@ Telegram闲聊群：https://t.me/LiteLoaderQQNT
 
 ## 安装方法
 
-请先去官网安装QQNT最新版：https://im.qq.com/  
-支持Windows, Linux, MacOS的32位与64位QQNT
+支持Windows, Linux, MacOS的32位与64位QQNT  
+MacOS需要安装商店版本的QQNT  
+Windows QQNT最高仅支持到`9.9.1-15293`  
+32位：https://dldir1.qq.com/qqfile/qq/QQNT/4ebc66b2/QQ9.9.1.15293_x86.exe  
+64位：https://dldir1.qq.com/qqfile/qq/QQNT/56cb863a/QQ9.9.1.15293_x64.exe
 
 安装位置：
 - Windows：`QQNT的根目录/resources/app`
@@ -74,7 +77,7 @@ QQNT的package.json文件示例：
 
 如需上架插件市场，要使用最新的manifest格式（建议参考已上架插件，文件来源可使用仓库源码，也可用Release指定文件）  
 并在Github开源，需要打包的插件请在仓库发布Release，文件尽量使用Github Actions打包  
-插件模板：[LiteLoaderQQNT-Plugin-Template](https://github.com/mo-jinran/LiteLoaderQQNT-Plugin-Template)  
+插件模板（未更新，请在群内置顶消息查看如何更新插件）：[LiteLoaderQQNT-Plugin-Template](https://github.com/mo-jinran/LiteLoaderQQNT-Plugin-Template)  
 插件仓库：[LiteLoaderQQNT-Plugin-List](https://github.com/mo-jinran/LiteLoaderQQNT-Plugin-List)
 
 > Windows QQNT 9.8.5版本及以上暂时无法打开自身的DevTools  
